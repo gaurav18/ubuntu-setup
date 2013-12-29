@@ -5,6 +5,17 @@ else # OS X `ls`
   colorflag="-G"
 fi
 
+# Some utility commands
+alias h="history|grep "
+alias f="find . |grep "
+alias p="ps aux |grep "
+
+# Home navigation
+alias home='cd ~'
+
+# List all files in long format, including dot files with the time
+alias lt='ls -halt'
+
 # List all files colorized in long format
 alias ll='ls -lh'
 
@@ -13,6 +24,11 @@ alias la="ls -lha"
 
 # List only directories
 alias lsd='ls -l | grep "^d"'
+
+# Some directory manipulation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
