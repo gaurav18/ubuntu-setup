@@ -11,4 +11,4 @@ set nu
 syntax on
 set ruler
 filetype plugin on
-let g:pydiction_location = '/Users/gnarang/git/pydiction/complete-dict'
+let g:pydiction_location = '/Users/gnarang/settings/complete-dict'
